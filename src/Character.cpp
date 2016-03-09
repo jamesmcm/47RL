@@ -27,3 +27,8 @@ int Character::col() {
 char Character::symbol() {
 	return _symbol;
 }
+
+// Get the symbol of the character
+void Character::set_symbol(char symbol) {
+	_symbol = symbol;
+}

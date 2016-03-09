@@ -67,7 +67,7 @@ int main() {
 	// Initialize the main character. We are going to put this in the middle of 
 	// the game map (for now)
 	Character main_char('@', game_map.height()/2, game_map.width()/2);
-
+        main_char.set_symbol('V');
 	// Fill the game map with numbers
 	game_map.fill_window();
 

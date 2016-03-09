@@ -16,6 +16,7 @@ public:
 	int col();
 	// Get the symbol of the character
 	char symbol();
+        void set_symbol(char symbol);
 };
 
 #endif
