@@ -1,0 +1,29 @@
+* TODO Add Start menu to game
+** TODO Create GameState class
+** TODO Create StartMenu instance
+** TODO Create MissionLoop instance
+* TODO Write map editor
+** TODO Decide and document symbols used
+** TODO NPC and object placement in separate files?
+** TODO NPC Scripts in separate files - i.e. default state, action
+** TODO How to add objectives? Briefing files
+* TODO Add Line Of Sight calculations
+** TODO Implement for player
+** TODO How to show which directions NPCs and players are facing??
+** TODO Show greyed out area for "memory" of fog of war area
+* TODO Add collision detection for objects to game loop
+** TODO Cannot walk through walls
+** TODO Can open doors
+** TODO Can peek through doors
+* TODO Add UI placement to main window 
+** TODO Message log
+** TODO Character overview
+** TODO Weapon equipped
+* TODO Add first AI
+** TODO Basic guard AI
+** TODO Escorting from trespassing area
+
+* Data structure:
+
+* Class struture:
+
