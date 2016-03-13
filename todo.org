@@ -8,11 +8,13 @@
 ** TODO NPC Scripts in separate files - i.e. default state, action
 ** TODO How to add objectives? Briefing files
 * TODO Add Line Of Sight calculations
-** TODO Implement for player
+** DONE Implement for player
+** TODO Implement directionality
+** TODO Implement for NPCs
 ** TODO How to show which directions NPCs and players are facing??
-** TODO Show greyed out area for "memory" of fog of war area
+** DONE Show greyed out area for "memory" of fog of war area
 * TODO Add collision detection for objects to game loop
-** TODO Cannot walk through walls
+** DONE Cannot walk through walls
 ** TODO Can open doors
 ** TODO Can peek through doors
 * TODO Add UI placement to main window 
