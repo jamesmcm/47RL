@@ -1,6 +1,6 @@
 struct Tile {
-   bool canWalk; // can we walk through this tile?
-   Tile() : canWalk(false) {}
+   bool explored; // have we explored this tile??
+   Tile() : explored(false) {}
 };
 
 class Map {
@@ -10,8 +10,12 @@ public :
    Map(int width, int height);
    ~Map();
    bool isWall(int x, int y) const;
+   bool isInFov(int x, int y) const;
+   bool isExplored(int x, int y) const;
+   void computeFov();
    void render() const;
 protected :
+   TCODMap *map;
    Tile *tiles;
    friend class BspListener;
 
