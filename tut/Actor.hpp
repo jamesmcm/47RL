@@ -1,3 +1,6 @@
+#ifndef ACTOR_H
+#define ACTOR_H
+
 class Actor { 
 public :
    int x,y; // position on map
@@ -10,3 +13,4 @@ public :
    bool moveOrAttack(int x, int y);
    void render() const;
 };
+#endif

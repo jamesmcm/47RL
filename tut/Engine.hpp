@@ -1,3 +1,6 @@
+#ifndef ENGINE_H
+#define ENGINE_H
+
 class Engine {
 public :
    enum GameStatus {
@@ -20,3 +23,4 @@ public :
 };
 
 extern Engine engine;
+#endif

@@ -1,3 +1,5 @@
+#ifndef BSPLISTENER_H
+#define BSPLISTENER_H
 class Map;
 class BspListener : public ITCODBspCallback {
 private :
@@ -11,3 +13,4 @@ public :
 };
 extern const int ROOM_MAX_SIZE;
 extern const int ROOM_MIN_SIZE;
+#endif
